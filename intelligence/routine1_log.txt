@@ -1,0 +1,22 @@
+=== Run: 2026-06-02 15:15 UTC ===
+Run date/time: 2026-06-02 15:15 UTC
+Query statuses:
+  q1  (7598756 - Volume & Transfers):   completed | 89 rows
+  q2  (7598803 - Usage Heatmap):        completed | 125 rows
+  q2b (7600004 - Non-DeFi breakdown):   completed | 90 rows
+  q3  (7598836 - Chain Dominance):      completed | 36 rows
+  q4  (7598870 - P2P Sizing):           completed | 178 rows
+  q5  (7598934 - New Wallets):          completed | 320 rows
+  q5a (7599364 - per-chain helper):     completed | 313 rows
+  q5b (7599374 - all-chains helper):    completed | 7 rows
+  q1_summary (7599869 - token-level):   completed | 10 rows
+Failed queries: none (0/9)
+News stories found: 5
+  1. Base market share gains driven by Circle Gateway / Base ecosystem expansion
+  2. CLARITY Act stalemate / NCUA GENIUS Act rulemaking
+  3. USDC overtakes USDT in institutional adoption ($18.3T vs $13.3T in 2025)
+  4. TRON $21B daily stablecoin volume, competing with Ethereum for supply leadership
+  5. Coinbase Commerce halts non-US merchants; stablecoins 82% of crypto payment gateway volume
+Push status: SUCCESS (branch master, commit 114d5c4)
+=== End Run ===
+
