@@ -20,3 +20,19 @@ News stories found: 5
 Push status: SUCCESS (branch master, commit 114d5c4)
 === End Run ===
 
+=== Run: 2026-06-02 15:18 UTC ===
+Run date/time: 2026-06-02 15:18 UTC
+Query statuses:
+  q1  (7598756  Volume & Transfers):    completed — 89 rows
+  q2  (7598803  Usage Heatmap):         completed — 125 rows
+  q2b (7600004  Non-DeFi Breakdown):    completed — 90 rows  [initially timed_out in poll loop; fetched on retry]
+  q3  (7598836  Chain Dominance):       completed — 36 rows
+  q4  (7598870  P2P Sizing):            completed — 178 rows
+  q5  (7598934  New Wallets):           completed — 320 rows [initially timed_out in poll loop; fetched on retry]
+  q5a (7599364  Per-Chain Helper):      completed — 313 rows
+  q5b (7599374  All-Chains Helper):     completed — 7 rows
+  q1s (7599869  Q1 Summary token-lvl): completed — 10 rows
+Total rows fetched: 1168
+News stories found: 5 (CLARITY Act debate, USDC institutional adoption, Tron/Ethereum chain dominance, Visa USDC settlement expansion, merchant crypto adoption stats)
+Push status: success (commit b368b74 pushed to origin/master)
+Failed queries: none (q2b and q5 required retry fetch after poll timeout, but both completed successfully)
