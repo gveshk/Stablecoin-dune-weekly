@@ -36,3 +36,19 @@ Total rows fetched: 1168
 News stories found: 5 (CLARITY Act debate, USDC institutional adoption, Tron/Ethereum chain dominance, Visa USDC settlement expansion, merchant crypto adoption stats)
 Push status: success (commit b368b74 pushed to origin/master)
 Failed queries: none (q2b and q5 required retry fetch after poll timeout, but both completed successfully)
+
+=== Run: 2026-06-08 03:56 UTC ===
+Run date/time: 2026-06-08T03:56:31.222956+00:00
+Queries status:
+  q1  (7598756 - Volume & Transfers):   completed | 98 rows
+  q2  (7598803 - Usage Heatmap):        completed | 126 rows
+  q2b (7600004 - Non-DeFi Breakdown):   completed | 91 rows
+  q3  (7598836 - Chain Dominance):      completed | 37 rows
+  q4  (7598870 - P2P Sizing):           completed | 183 rows
+  q5  (7598934 - New Wallets):          completed | 325 rows
+  q5a (7599364 - Per-chain helper):     completed | 318 rows
+  q5b (7599374 - All-chains helper):    completed | 7 rows
+  q1s (7599869 - Token-level summary):  completed | 10 rows
+Total failed/timed_out: 0 of 9
+News stories found: 5
+Push status: success (commit 32a0b06 on master)
