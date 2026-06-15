@@ -1,1 +1,14 @@
-placeholder
+{
+  "week_of": "2026-06-15",
+  "generated_at": "2026-06-15T07:57:29.752919+00:00",
+  "queries_status": {
+    "q1": "completed",
+    "q2": "completed",
+    "q2b": "completed",
+    "q3": "completed",
+    "q4": "completed",
+    "q5": "completed",
+    "q5a": "completed",
+    "q5b": "completed",
+    "q1_summary": "completed"
+  }
