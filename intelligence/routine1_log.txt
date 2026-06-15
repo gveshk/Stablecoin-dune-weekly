@@ -52,3 +52,20 @@ Queries status:
 Total failed/timed_out: 0 of 9
 News stories found: 5
 Push status: success (commit 32a0b06 on master)
+
+=== Run: 2026-06-15 03:55 UTC ===
+Run date/time: 2026-06-15T03:54:55+00:00
+Queries status:
+  q1  (7598756 - Volume & Transfers):   completed | 99 rows
+  q2  (7598803 - Usage Heatmap):        completed | 126 rows
+  q2b (7600004 - Non-DeFi Breakdown):   completed | 91 rows
+  q3  (7598836 - Chain Dominance):      completed | 38 rows
+  q4  (7598870 - P2P Sizing):           timed_out (>15min)
+  q5  (7598934 - New Wallets):          completed | 328 rows
+  q5a (7599364 - Per-chain helper):     completed | 321 rows
+  q5b (7599374 - All-chains helper):    timed_out (>15min)
+  q1s (7599869 - Token-level summary):  timed_out (>15min)
+Total failed/timed_out: 3 of 9 (q4, q5b, q1_summary)
+News stories found: 5
+Push status: partial — snapshot pushed via MCP (5-row condensed; full 30-row version in local commit a190f7d; PAT expired)
+=== End Run ===
